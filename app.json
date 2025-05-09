@@ -1,0 +1,37 @@
+{
+  "name": "CypherX",
+  "description": "CypherX, your friendly assistant!",
+  "logo": "https://i.ibb.co/nqsRcKDB/Xploader4.jpg",
+  "keywords": [],
+  "repository": "https://github.com/Dark-Xploit/CypherX",
+  "stack": "container",
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+"env": {
+  "SESSION_ID": {
+    "description": "Must begin with 'XPLOADER-BOT:~' or 'CYPHER-X:~'.",
+    "value": "CYPHER-X:~UEsDBBQAAAgIAIOSqVoWvPgGOQUAAIMJAAAKAAAAY3JlZHMuanNvbq1Va4+iSBT9L*VVe5v3w6STAURFUVQEbTabTQkF8kaqUOmJ*32Ddm93MjM9vcnyqVJUnXvuveee+g6KMsZohlow+A6qOj5BgrolaSsEBkBtwhDVoA8CSCAYgFQ*1rgXMJrjXhJ+ZFJoc7RaarbqceX04A4VOlwujLVIseUTuPZB1eyz2P8EUNZVe7lwqGiUFZUYjQ0myAqYPiu6ZS5cx6KFgiVRSFkufgLXDhHGdVxEenVAOaphNkPtEsb11+jro2qyLUK4tl25PKcTi5wPj6aT2+kWPTdHVrVwmG+tyy6XvkZf2elS3Sv1Rp0yuxc+kbE3b5bScTPM9mP5dDo5gqIp+bZk0zt9HEcFCowAFSQm7ZfrDkfK7CRQB96bISZj1GLIDy9NcfL3pz3HW35ySB+nXkQOW+drxI*HjXk+FKu6nk6inaVPKulclUyp5+HWCvxxo6JqazoBpUcfiS*rN62k*6XuaDlPZImIilEtDZ8ZFqqaBathQ5wlpa9b4agqzZpveZZdfY2+vVOY6fFsz0N8iNOJ0tKFZW1wtBcPwWyMduQ4mcTYaBYJfqcPSVN*xpKB3nDbrB9HiiBq+VrM*KUeChcxN7GWLJt0Wkl2OEGjZKWrXi+*ePkm3AbKLKJn59BVIWqMMRSorIJqtpCpJJ6uxgfl6ZZRilojAAP62gc1imJMakjisrjtsVQfwOBkI79G5FZeMJOfPeu0fjTzNGnqoGqjxPNRoY0sz8zW1AbanFiu2HVGPT+BPqjq0kcYo2ASY1LW7RxhDCOEweDPW6e6pGuUlwRN46CbOoZlaEmUOUHmv+E*zgdIMKyqPwpEQB+EdZnPERiQukF9cL+g8yOWlwRFHiq0QDMyLYgjjmcUlhNFSR92Keb3oJs4R5jAvAIDWuQEieYkirn2*x8eGj*SZV3RJXFICxwvCgpH8SNO4SWZYUWK*i2Pv*qgQBdy13FXfYHugzCuMXGKpspKGLyJ*O0n9P2yKYjdFr7WLVANBh+2ESFxEeEus6aAtX+IT0jr8gCDEGYYXfsgQKfYRx0eeDD2x7*pkbVyEMvO5J1uFp587jp4KIv7EchIlMCy4sPep*YPnE*RD1Ci5QdEBz4lybwksBToynG3kO7Or+16X45bV+YO0sldvMDRZFSbOp0W5wt1U+VdiqhGwVuV99BPm2pTpqj4BLe8nBd8uDjvxL0FqR5MWs+TT4FKKf4H3LvEweD7u21rZdDhmZOZtPVmKui61cX5QQ0D4Uc9FLA7DDBMEhjALJa5rhDZ7S4jUgwtcZLEsBzDSAPhW7d**bdPXZAAERhnuJPRslXohaTr87HV85XxWJlHihYp4L2vb35xn0fTtfTpVjx5+ePpyBma62CduEGL1PXGv5RwISzYWVmETmw8*QSkS85NaRdGXGKvZ+NcsebrMHOiy4vtrcf5btMcA88Y4mGomoGS5r65ddPFZcMEY928GFVepvl+RbizXDyXExFal2o5H2nnpy7aXV8fg83l9WiyPYcTdF5eBNt0jeX4*LKdYoFNdDmKVlGLFws+ZY48kayZue0lZqYzyO657FJwbabS4G5ua*gxTZ4TPeAcB0avTnZz0uz1BYtfPeauxjBGtwfhtVG*6+f7XFDX*geI1xfmF9pTbXpz0NxGZLyTKDSakrmmaro7v4gch53DcYKSoD1OWdqIwbUb+CqDJCzrvNNOvoegD+qy6abWKMLyk0iaYhjq6p51BjFR3p3gZ+ZC3U8t67KaQHzoROmK4tHpRN4qVWUTSN6MBSjdN2d0cP0HUEsBAhQDFAAACAgAg5KpWha8+AY5BQAAgwkAAAoAAAAAAAAAAAAAAKSBAAAAAGNyZWRzLmpzb25QSwUGAAAAAAEAAQA4AAAAYQUAAAAA",
+    "required": false
+  }
+},
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
